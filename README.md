@@ -27,6 +27,9 @@ conda activate numba-playground
 conda install mpi4py -c conda-forge -y
 # (instale OpenMPI/MPICH do seu sistema, se necessário)
 
+## CUDA (Numba-CUDA) → cuidado com versões. Numba requer CUDA Toolkit ≥ 11.2.
+ # Se não quiser GPU: NUMBA_DISABLE_CUDA=1.
+
 
 Dicas (Numba vs OpenMP)
 
